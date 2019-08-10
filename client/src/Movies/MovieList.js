@@ -33,6 +33,10 @@ export default class MovieList extends Component {
   }
 }
 
+// Part 2:
+//Make it so that the card in MovieList is a link, this should direct the user to the /movies/{id of movie here} URL, where :id is the id of the individual movie.
+// When a user clicks on a movie card they should be taken to /movies/{id of movie here} to see the details for the selected movie.
+
 function MovieDetails({ movie }) {
   const { title, director, metascore, stars } = movie;
   return (

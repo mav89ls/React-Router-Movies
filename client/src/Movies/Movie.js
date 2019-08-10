@@ -11,7 +11,7 @@ export default class Movie extends Component {
   }
 
   componentDidMount() {
-    // change this line to grab the id passed on the URL
+    // Part 2 You will need to modify line 13 of Movie.js in order to accept the correct id for the movie selected.
     const id = this.props.match.params.id;
     this.fetchMovie(id);
   }

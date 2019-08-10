@@ -20,6 +20,9 @@ export default class App extends Component {
     this.setState({ savedList });
   };
 
+  // Part 1 Inside your App file add two routes.
+  //one route for / that loads the MovieList component.
+  //one route that will take an id parameter after/movies/ (ex: /movies/2, /movies/3 where the id is dynamic). This route should load the Movie component.
   render() {
     return (
       <div>
